@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+        content="width=device-width,initial-scale=1.0"/>
+        <title>Learn More</title>
+        <link href="LearnMore.css" rel="stylesheet"/> 
+        <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet"/>
+        <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <!--NavBar Section-->
+        <nav class="navbar">
+            <div class="navbar-container">
+              <a href="index.html" id="navbar-logo"> <i class="fas-fa-gem"></i><img src="file:///Users/brian/Detailing-Website/images/Sleek-Detail-logo.png" height="60" width="auto">Sleek</a>
+              <div class="navbar-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar-menu">
+                <li class="navbar-item">
+                    <a href="index.html" class="navbar-links">
+                    Home
+                    </a>
+                </li>
+                <li class="navbar-item">
+                    <a href="Service.html" class="navbar-links">
+                    Services
+                    </a>
+                </li>
+                <li class="navbar-item">
+                    <a class="navbar-links">
+                    Book an Appointment
+                    </a>
+                </li>
+                <li class="navbar-item">
+                    <a href="ContactUs.html" class="button">
+                    Contact Us
+                    </a>
+                </li>
+            </ul>
+
+            </div>
+        </nav>
+        <!--End-->
+        
+        <!--Title Page-->
+        <div class="Top-page">
+            <div class="Page-title">
+                <p class="Page-text">
+                    Information/Steps included in our Standard Interior Package
+                </p>
+            </div>
+
+        </div>
+
+        <!--Info Section-->
+        <div class="Section" id="Section_id">
+            <div class="Container-flexbox">
+                <div class="Grid">
+                    <div class="Picture-container">
+                        <img class="Picture" src="images/Interior-Vacuum.jpg" id="Vacuum-pic">
+                    </div>
+
+                    <div class="Text-container">
+                        <p class="Text">
+                            Vacuuming: We use a combination of tools, including an air compressor, drill, and vacuum, to ensure a thorough removal of dirt, debris, and pet hair from your vehicle's carpets, upholstery, and other surfaces.
+                        </p>
+                    </div>
+                
+                    <div class="Picture-container">
+                        <img class="Picture" src="images/Interior-wipedown.jpg">
+                    </div>
+
+                    <div class="Text-container">
+                        <p class="Text">
+                            Wipe Down: We wipe down all surfaces of your vehicle, including dashboard, console, and door panels, to remove dust and grime and give your interior a fresh look.
+                        </p>
+                    </div>
+
+                    <div class="Picture-container">
+                        <img class="Picture" src="images/Interior-windowcleaning.jpg">
+                    </div>
+
+                    <div class="Text-container">
+                        <p class="Text">
+                            Window Cleaning: We clean all interior windows, ensuring a clear and streak-free view.
+                        </p>
+                    </div>
+
+                    <div class="Picture-container">
+                        <img class="Picture" src="images/Interior-doorcleaning.jpg" id="Door-pic">
+                    </div>
+
+                    <div class="Text-container">
+                        <p class="Text">
+                            Door & Trunk Jamb Cleaning: We clean the door and trunk jambs to remove dirt and debris buildup.
+                        </p>
+                    </div>
+
+                    <div class="Picture-container">
+                        <img class="Picture" src="images/Interior-uv.jpg" id="Uv-pic">
+                    </div>
+
+                    <div class="Text-container">
+                        <p class="Text">
+                            UV Protection Application: We apply a protective spray to your vehicle's interior surfaces, such as dashboard and door panels, to shield them from the sun's harmful UV rays, preventing fading and cracking. 
+                        </p>
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+
+       
+
+        <!--Java Script NavBar-->
+        <script>
+            const menu = document.querySelector('#mobile-menu');
+            const menuLinks = document.querySelector('.navbar-menu');
+    
+            menu.addEventListener('click', function() {
+                menu.classList.toggle('is-active');
+                menuLinks.classList.toggle('active');
+            });
+        </script>
+        <!--End-->
+
+    </body>
+</html>

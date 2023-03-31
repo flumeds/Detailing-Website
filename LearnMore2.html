@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+        content="width=device-width,initial-scale=1.0"/>
+        <title>Learn More</title>
+        <link href="LearnMore2.css" rel="stylesheet"/> 
+        <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet"/>
+        <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <!--NavBar Section-->
+        <nav class="navbar">
+            <div class="navbar-container">
+                
+              <div class="navbar-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar-menu">
+                <li class="navbar-item">
+                    <a href="index.html" class="navbar-links">
+                    Home
+                    </a>
+                </li>
+                <li class="navbar-item">
+                    <a href="Service.html" class="navbar-links">
+                    Services
+                    </a>
+                </li>
+                <li class="navbar-item">
+                    <a class="navbar-links">
+                    Book an Appointment
+                    </a>
+                </li>
+                <li class="navbar-item">
+                    <a href="ContactUs.html" class="button">
+                    Contact Us
+                    </a>
+                </li>
+            </ul>
+
+            </div>
+        </nav>
+        <!--End-->
+        
+        <!--Title Page-->
+        <div class="Top-page">
+            <div class="Page-title">
+                <p class="Page-text">
+                    Information/Steps included in our Premium Interior Package
+                </p>
+            </div>
+
+        </div>
+
+        <!--Info Section-->
+        <div class="Section" id="Section_id">
+            <div class="Container-flexbox">
+                <div class="Grid">
+                    <div class="Picture-container">
+                        <img class="Picture" src="images/Interior-wipedown.jpg">
+                    </div>
+
+                    <div class="Text-container">
+                        <p class="Text">
+                            Our Premium Interior Package includes everything in the Standard Interior Package, as well as additional services to enhance the condition of your vehicle.
+                        </p>
+                    </div>
+                
+                    <div class="Picture-container">
+                        <img class="Picture" src="images/Interior-extraction.jpg" id="Extractor-pic">
+                    </div>
+
+                    <div class="Text-container">
+                        <p class="Text">
+                            Carpet & Upholstery Stain Removal: We employ advanced techniques such as drill brushing, extraction, and steam cleaning to effectively eliminate the toughest stains from your car's carpets and upholstery, restoring them to their original pristine condition.
+                        </p>
+                    </div>
+
+                    <div class="Picture-container">
+                        <img class="Picture" src="images/Interior-drill.jpg" id="Drill-pic">
+                    </div>
+
+                    <div class="Text-container">
+                        <p class="Text">
+                            Seat/Carpet Shampoo & Cleaning: Our thorough deep cleaning and shampooing process ensures that every part of your car's seats and carpets are meticulously cleaned, leaving them looking and feeling refreshed and renewed.
+                        </p>
+                    </div>
+
+                    <div class="Picture-container">
+                        <img class="Picture" src="images/Interior-conditioner.jpg" id="Conditioner-pic">
+                    </div>
+
+                    <div class="Text-container">
+                        <p class="Text">
+                            Seat & Carpet Conditioner: Our conditioning service deeply nourishes and safeguards your car's seats and carpets, protecting them from future wear and tear and ensuring a long-lasting clean and fresh appearance.
+                        </p>
+                    </div>
+
+                    <div class="Picture-container">
+                        <img class="Picture" src="images/Interior-steamer.jpg" id="Steam-pic">
+                    </div>
+
+                    <div class="Text-container">
+                        <p class="Text">
+                            Steam Cleaning & Sanitization: We employ high-pressure steam cleaning to effectively remove dirt and grime from your car's interior surfaces.
+                        </p>
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+
+       
+
+        <!--Java Script NavBar-->
+        <script>
+            const menu = document.querySelector('#mobile-menu');
+            const menuLinks = document.querySelector('.navbar-menu');
+    
+            menu.addEventListener('click', function() {
+                menu.classList.toggle('is-active');
+                menuLinks.classList.toggle('active');
+            });
+        </script>
+        <!--End-->
+
+    </body>
+</html>

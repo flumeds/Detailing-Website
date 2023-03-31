@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+        content="width=device-width,initial-scale=1.0"/>
+        <title>Learn More</title>
+        <link href="LearnMore3.css" rel="stylesheet"/> 
+        <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet"/>
+        <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <!--NavBar Section-->
+        <nav class="navbar">
+            <div class="navbar-container">
+              <a href="index.html" id="navbar-logo"> <i class="fas-fa-gem"></i><img src="file:///Users/brian/Detailing-Website/images/Sleek-Detail-logo.png" height="60" width="auto">Sleek</a>
+              <div class="navbar-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar-menu">
+                <li class="navbar-item">
+                    <a href="index.html" class="navbar-links">
+                    Home
+                    </a>
+                </li>
+                <li class="navbar-item">
+                    <a href="Service.html" class="navbar-links">
+                    Services
+                    </a>
+                </li>
+                <li class="navbar-item">
+                    <a class="navbar-links">
+                    Book an Appointment
+                    </a>
+                </li>
+                <li class="navbar-item">
+                    <a href="ContactUs.html" class="button">
+                    Contact Us
+                    </a>
+                </li>
+            </ul>
+
+            </div>
+        </nav>
+        <!--End-->
+        
+        <!--Title Page-->
+        <div class="Top-page">
+            <div class="Page-title">
+                <p class="Page-text">
+                    Information/Steps included in our Standard Exterior Package
+                </p>
+            </div>
+
+        </div>
+
+        <!--Info Section-->
+        <div class="Section" id="Section_id">
+            <div class="Container-flexbox">
+                <div class="Grid">
+                    <div class="Picture-container">
+                        <img class="Picture" src="images/Exterior-wash.jpg" id="Wash-pic">
+                    </div>
+
+                    <div class="Text-container">
+                        <p class="Text">
+                            Foam Bath (100% Hand Wash): We start by pre-rinsing your car to loosen dirt and grime. Then, we use a gentle foam solution to hand-wash every inch of your car's exterior, paying special attention to detail to ensure no spots are missed.
+                        </p>
+                    </div>
+
+                    <div class="Picture-container">
+                        <img class="Picture" src="images/Exterior-tirecleaning.jpg" id="Tire-pic">
+                    </div>
+
+                    <div class="Text-container">
+                        <p class="Text">
+                            Tire & Wheel Cleaning: Our specialized tools and techniques allow us to remove tough brake dust, dirt, and grime from your wheels and tires. We use safe, professional-grade products that won't damage your tires or wheels.
+                        </p>
+                    </div>
+
+                    <div class="Picture-container">
+                        <img class="Picture" src="images/Exterior-windowcleaning.jpg" id="Window-pic">
+                    </div>
+
+                    <div class="Text-container">
+                        <p class="Text">
+                            Window Cleaning: We use professional-grade cleaning products and techniques to eliminate smudges and streaks from your car's windows to ensure a crystal-clear view.
+                        </p>
+                    </div>
+
+                    <div class="Picture-container">
+                        <img class="Picture" src="images/Exterior-blowdryer.jpg" id="Blowdryer-pic">
+                    </div>
+
+                    <div class="Text-container">
+                        <p class="Text">
+                            Air Blowing & Towel Drying: Our Air Blowing & Towel Drying process ensures your car is dried completely, leaving no water spots or streaks behind. We use powerful air blowers to blow out all the water from hard-to-reach areas, followed by a careful towel drying to get the remaining moisture.
+                        </p>
+                    </div>
+    
+                </div>
+    
+            </div>
+        </div>
+
+       
+
+        <!--Java Script NavBar-->
+        <script>
+            const menu = document.querySelector('#mobile-menu');
+            const menuLinks = document.querySelector('.navbar-menu');
+    
+            menu.addEventListener('click', function() {
+                menu.classList.toggle('is-active');
+                menuLinks.classList.toggle('active');
+            });
+        </script>
+        <!--End-->
+
+    </body>
+</html>

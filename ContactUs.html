@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact Us</title>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+        content="width=device-width,initial-scale=1.0"/>
+        <title>Service Page</title>
+        <link rel="stylesheet" href="ContactUs.css">
+        <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet"/>
+        <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    </head>
+
+    <body>
+        <!--Nav Bar Secion-->
+        <nav class="navbar">
+            <div class="navbar-container">
+                <a href="index.html" id="navbar-logo"> <i class="fas-fa-gem"></i><img src="file:///Users/brian/Detailing-Website/images/Sleek-Detail-logo.png" height="60" width="auto">Sleek</a>
+              <div class="navbar-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar-menu">
+                <li class="navbar-item">
+                    <a href="index.html" class="navbar-links">
+                    Home
+                    </a>
+                </li>
+                <li class="navbar-item">
+                    <a href="Service.html" class="navbar-links">
+                    Services
+                    </a>
+                </li>
+                <li class="navbar-item">
+                    <a class="navbar-links">
+                    Book an Appointment
+                    </a>
+                </li>
+                <li class="navbar-item">
+                    <a href="ContactUs.html" class="button">
+                    Contact Us
+                    </a>
+                </li>
+            </ul>
+
+            </div>
+        </nav>
+
+        <div class="Contact-container">
+            <div class="Page-title">
+                <p class="Contact-title">
+                    Contact Us
+                </p>
+
+                <p>
+
+                </p>
+            </div>
+
+            <div class="Grid-container">
+                <div class="Phone-section">
+                    <p class="Text-font">Phone Number</p>
+
+                    <ion-icon class="Phone-icon" name="call-outline"></ion-icon>
+
+                    <p class="Number-font">Gives us a Call at 209-489-5359</p>
+
+                    <p id="Font">For questions/comments please call</p>
+                </div>
+                
+                <div class="Email-section">
+                    <p class="Text-font">Email</p>
+
+                    <ion-icon class="Phone-icon" name="mail-outline"></ion-icon>   
+                    
+                    <p class="Number-font">sleekdetailingca@gmail.com</p>
+                </div>
+                <div class="Hours-section">
+                    <p class="Text-font">Hours</p>
+
+                    <ion-icon class="Phone-icon" name="time-outline"></ion-icon>
+
+                    <div class="Grid">
+                        <div class="Flexbox">
+                            <p>Monday</p>
+                            <p>8am - 5pm</p>
+                        </div>
+
+                        <div class="Flexbox">
+                            <p>Tuesday</p>
+                            <p>8am - 5pm</p>
+                        </div>
+
+                        <div class="Flexbox">
+                            <p>Wednesday</p>
+                            <p>8am - 5pm</p>
+                        </div>
+
+                        <div class="Flexbox">
+                            <p>Thursday</p>
+                            <p>8am - 5pm</p>
+                        </div>
+
+                        <div class="Flexbox">
+                            <p>Friday</p>
+                            <p>8am - 5pm</p>
+                        </div>
+
+                        <div class="Flexbox">
+                            <p>Saturday</p>
+                            <p>8am - 5pm</p>
+                        </div>
+
+                        <div class="Flexbox">
+                            <p>Sunday</p>
+                            <p>Closed</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--End-->
+
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+        <script>
+            const menu = document.querySelector('#mobile-menu');
+            const menuLinks = document.querySelector('.navbar-menu');
+    
+            menu.addEventListener('click', function() {
+                menu.classList.toggle('is-active');
+                menuLinks.classList.toggle('active');
+            });
+        </script>
+    </body>
+</html>

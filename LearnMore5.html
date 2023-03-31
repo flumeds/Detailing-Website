@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+        content="width=device-width,initial-scale=1.0"/>
+        <title>Learn More</title>
+        <link href="LearnMore5.css" rel="stylesheet"/> 
+        <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet"/>
+        <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <!--NavBar Section-->
+        <nav class="navbar">
+            <div class="navbar-container">
+                <a href="index.html" id="navbar-logo"> <i class="fas-fa-gem"></i><img src="file:///Users/brian/Detailing-Website/images/Sleek-Detail-logo.png" height="60" width="auto">Sleek</a>
+              <div class="navbar-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar-menu">
+                <li class="navbar-item">
+                    <a href="index.html" class="navbar-links">
+                    Home
+                    </a>
+                </li>
+                <li class="navbar-item">
+                    <a href="Service.html" class="navbar-links">
+                    Services
+                    </a>
+                </li>
+                <li class="navbar-item">
+                    <a class="navbar-links">
+                    Book an Appointment
+                    </a>
+                </li>
+                <li class="navbar-item">
+                    <a href="ContactUs.html" class="button">
+                    Contact Us
+                    </a>
+                </li>
+            </ul>
+
+            </div>
+        </nav>
+        <!--End-->
+        
+        <!--Title Page-->
+        <div class="Top-page">
+            <div class="Page-title">
+                <p class="Page-text">
+                    Information/Steps included in our Premium Clay & Sealant
+                </p>
+            </div>
+
+        </div>
+
+        <!--Info Section-->
+        <div class="Section" id="Section_id">
+            <div class="Container-flexbox">
+                <div class="Grid">
+                    <div class="Picture-container">
+                        <img class="Picture" src="images/Exterior-wash.jpg" id="Wash-pic">
+                    </div>
+
+                    <div class="Text-container">
+                        <p class="Text">
+                            Our Premium Wash & Wax Package includes everything in the Standard Foam Wash Package, as well as additional services to enhance and protect the condition of your vehicle.
+                        </p>
+                    </div>
+
+                    <div class="Picture-container">
+                        <img class="Picture" src="images/Exterior-bug-tar.jpg">
+                    </div>
+
+                    <div class="Text-container">
+                        <p class="Text">
+                            Bug & Tar Remover Treatment: We apply a specialized solution to effectively remove stubborn bugs and tar from your vehicle's exterior surfaces.
+                        </p>
+                    </div>
+
+                    <div class="Picture-container">
+                        <img class="Picture" src="images/Exterior-iron.jpg">
+                    </div>
+
+                    <div class="Text-container">
+                        <p class="Text">
+                            Iron Removal Treatment: We use a special iron remover solution to dissolve and remove stubborn iron deposits and other contaminants from your vehicle's paint, leaving it smooth and clean
+                        </p>
+                    </div>
+
+                    <div class="Picture-container">
+                        <img class="Picture" src="images/Exterior-claybar.jpg">
+                    </div>
+
+                    <div class="Text-container">
+                        <p class="Text">
+                            Clay Bar Treatment: We use a special clay bar to gently remove contaminants and leave your car's paint feeling smooth and clean.
+                        </p>
+                    </div>
+
+                    
+
+                    <div class="Picture-container">
+                        <img class="Picture" src="images/Exterior-wax.jpg">
+                    </div>
+
+                    <div class="Text-container">
+                        <p class="Text">
+                            Ceramic Sealant Application: We apply a long-lasting ceramic sealant to your car's paint by hand to provide durable protection against environmental contaminants and UV rays, and enhance its shine for up to two years.
+                        </p>
+                    </div>
+
+                    <div class="Picture-container">
+                        <img class="Picture" src="images/Exterior-tiredressing.jpg" id="Tire-pic">
+                    </div>
+
+                    <div class="Text-container">
+                        <p class="Text">
+                            Tire Dressing Application: We apply tire dressing to give your tires a deep, rich finish, and protect them from the damaging effects of UV rays and other environmental factors. 
+                        </p>
+                    </div>
+    
+                </div>
+    
+            </div>
+        </div>
+
+       
+
+        <!--Java Script NavBar-->
+        <script>
+            const menu = document.querySelector('#mobile-menu');
+            const menuLinks = document.querySelector('.navbar-menu');
+    
+            menu.addEventListener('click', function() {
+                menu.classList.toggle('is-active');
+                menuLinks.classList.toggle('active');
+            });
+        </script>
+        <!--End-->
+
+    </body>
+</html>
